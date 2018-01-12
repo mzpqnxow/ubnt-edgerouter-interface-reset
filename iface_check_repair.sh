@@ -22,7 +22,7 @@ NC_FLAGS=
 SED=sed
 CAT=cat
 HEALTHCHECK_HOST=google.com # Consider interface broken if TCP connection can't be built
-HEALTHCHECK_PORT=81
+HEALTHCHECK_PORT=80
 CONNECT_TIMEOUT=10
 
 function fatal() {
