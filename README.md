@@ -50,6 +50,10 @@ $
 
 Add the public key so that it is authorized for the ubnt user on the EdgeRouter
 
+**WARN**: do NOT simply copy the key to ~/.ssh/authorized_keys, it will be wiped out upon reboot !!
+
+Follow this procedure to properly add a key persistently, specific to Vyatta/EdgeRouter
+
 ```
 ubnt@erlite:~$ sudo -i
 # configure
@@ -60,7 +64,6 @@ ubnt@erlite:~$ sudo -i
 ubnt@erlite:~$ 
 ```
 
-**WARN**: do NOT simply copy the key to ~/.ssh/authorized_keys, it will be wiped out upon reboot !!
 
 ## Notes
 
