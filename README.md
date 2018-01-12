@@ -1,4 +1,4 @@
-# ubnt-erlite-interface-reset
+# ubnt-edgerouter-interface-reset
 A simple remote healthcheck script with the ability to reset a VPN tunnel or other interface if it is hung or otherwise down
 
 ## Assumptions
