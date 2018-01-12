@@ -7,7 +7,7 @@ This script assumes you have LAN connectivity to the EdgeRouter. You must be abl
 
 ## Use case
 
-This was written to reset unstable VPN connections automatically when they hang but don't reset
+This was written to reset unstable VPN connections automatically when they hang but don't reset. It can be used for any type of interface that supports `disable`
 
 ## How to use
 
