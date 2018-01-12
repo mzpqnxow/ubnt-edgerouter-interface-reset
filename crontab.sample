@@ -1,2 +1,3 @@
+# Run every 5 minutes. Put this in your personal cron using `crontab -e`
 */5 * * * * /usr/local/sbin/iface_check_repair.sh 2>&1 > ~/iface_check_repair.log
 
