@@ -1,0 +1,2 @@
+*/5 * * * * /usr/local/sbin/iface_check_repair.sh 2>&1 > ~/iface_check_repair.log
+
