@@ -60,6 +60,8 @@ ubnt@erlite:~$ sudo -i
 ubnt@erlite:~$ 
 ```
 
+**WARN**: do NOT simply copy the key to ~/.ssh/authorized_keys, it will be wiped out upon reboot !!
+
 ## Notes
 
 You may need to add your user to the `cron` group in /etc/group depending on your Linux distribution (or UNIX operating system) in order to allow your user to have a cron entry
